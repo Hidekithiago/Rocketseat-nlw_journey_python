@@ -1,0 +1,64 @@
+## Criando de ambiente virtual em Python
+
+### Linux
+
+1. Certifique-se de que o Python está instalado:
+    
+    `python3 --version`
+    
+2. Instale o `venv` se ainda não estiver instalado(Ubuntu/Debian):
+    
+    `sudo apt-get install python3-venv`
+    
+3. Crie o ambiente virtual:
+    
+    `python3 -m venv nome_do_venv`
+    
+4. Ative o ambiente virtual:
+    
+    `source nome_do_venv/bin/activate`
+    
+
+### Windows
+
+1. Certifique-se de que o Python está instalado:
+    
+    `python --version`
+    
+2. Crie o ambiente virtual:
+    
+    `python -m venv nome_do_venv`
+    
+3. Ative o ambiente virtual:
+    
+    `nome_do_venv\Scripts\activate`
+    
+
+### MacOS
+
+1. Certifique-se de que o Python está instalado:
+    
+    `python3 --version`
+    
+2. Crie o ambiente virtual:
+    
+    `python3 -m venv nome_do_venv`
+    
+3. Ative o ambiente virtual:
+    
+    `source nome_do_venv/bin/activate`
+    
+
+### Observações
+
+- Desativar o ambiente virtual: Para desativar o ambiente virtual em qualquer sistema operacional, use o comando:
+
+`deactivate`
+
+- Instalar pacotes no ambiente virtual**: Após ativar o ambiente virtual, você pode instalar pacotes usando `pip`:
+
+`pip install nome_do_pacote`
+
+- Atualizar o pip:
+
+`pip install --upgrade pip`
